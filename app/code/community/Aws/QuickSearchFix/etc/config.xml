@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Aws_QuickSearchFix>
+            <version>0.0.1</version>
+        </Aws_QuickSearchFix>
+    </modules>
+    <global>
+        <blocks>
+            <catalogsearch>
+                <rewrite>
+                    <result>Aws_QuickSearchFix_Block_Result</result>
+                </rewrite>
+            </catalogsearch>
+        </blocks>
+    </global>
+</config>
